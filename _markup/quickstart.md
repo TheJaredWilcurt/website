@@ -20,8 +20,8 @@ Create `package.json`:
 
 ```json
 {
-  "name": "nw-demo",
-  "main": "index.html"
+    "name": "your_application_name",
+    "main": "index.html"
 }
 ```
 
