@@ -1,15 +1,4 @@
-Create `package.json`
-
-```json
-{
-    "name": "your_application_name",
-    "main": "index.html",
-    "devDependencies": { "nw": "0.14.6-sdk" },
-    "scripts": { "start": "nw ." }
-}
-```
-
-Create `index.html`
+Create `index.html`:
 
 ```html
 <!DOCTYPE html>
@@ -25,6 +14,17 @@ Create `index.html`
     </script>
   </body>
 </html>
+```
+
+Create `package.json`:
+
+```json
+{
+    "name": "your_application_name",
+    "main": "index.html",
+    "devDependencies": { "nw": "0.14.6-sdk" },
+    "scripts": { "start": "nw ." }
+}
 ```
 
 Then just run:
