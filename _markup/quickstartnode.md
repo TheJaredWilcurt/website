@@ -1,4 +1,4 @@
-If you have Node.JS installed, set up a package.json file like this:
+If you have Node.JS installed, set up a `package.json` file like this:
 
 ```json
 {
