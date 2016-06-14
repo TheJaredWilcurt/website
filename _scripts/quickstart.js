@@ -33,7 +33,7 @@ $(document).ready(function(){
             //When you switch between vanilla and node
             $(".radio-group input").change(updateInstructionsVisibility);
             //Click vanilla on page load
-            $('label[for="vanilla"]').click();
+            $('label[for="node"]').click();
         });
     });
 });
