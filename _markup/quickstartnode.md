@@ -1,4 +1,4 @@
-If you have Node.JS installed, set up a `package.json` file like this:
+Create `package.json`
 
 ```json
 {
@@ -9,7 +9,7 @@ If you have Node.JS installed, set up a `package.json` file like this:
 }
 ```
 
-Create an `index.html` file, here's a sample one:
+Create `index.html`
 
 ```html
 <!DOCTYPE html>
