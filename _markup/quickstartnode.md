@@ -4,7 +4,7 @@ If you have Node.JS installed, set up a package.json file like this:
 {
     "name": "your_application_name",
     "main": "index.html",
-    "devDependencies": { "nw": "^0.12.3" },
+    "devDependencies": { "nw": "0.14.6-sdk" },
     "scripts": { "start": "nw ." }
 }
 ```
@@ -20,6 +20,9 @@ Create an `index.html` file, here's a sample one:
   <body>
     <h1>Hello World!</h1>
     We are using node.js <script>document.write(process.version)</script>.
+    <script>
+      nw.Window.get().showDevTools();
+    </script>
   </body>
 </html>
 ```
