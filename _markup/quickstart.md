@@ -9,6 +9,9 @@ Create `index.html`:
   <body>
     <h1>Hello World!</h1>
     We are using node.js <script>document.write(process.version)</script>.
+    <script>
+      nw.Window.get().showDevTools();
+    </script>
   </body>
 </html>
 ```
@@ -27,7 +30,7 @@ Run:
 $ /path/to/nw .  (suppose the current directory contains 'package.json')
 ```
 
-**Note:** On Windows, you can drag the folder containing `package.json` to `nw.exe` to open it.
+**Note:** On Windows, you can drag the **folder** containing `package.json` to `nw.exe` to open it.
 
 **Note:** On OSX, the executable binary is in a hidden directory within the .app file. To run NW.js on OSX, type:
 ```bash
