@@ -7,11 +7,8 @@ Create `index.html`:
     <title>Hello World!</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
     We are using node.js <script>document.write(process.version)</script>.
-    <script>
-      nw.Window.get().showDevTools();
-    </script>
+    <script> nw.Window.get().showDevTools(); </script>
   </body>
 </html>
 ```
@@ -22,7 +19,7 @@ Create `package.json`:
 {
     "name": "your_application_name",
     "main": "index.html",
-    "devDependencies": { "nw": "0.14.6-sdk" },
+    "devDependencies": { "nw": "0.14.7-sdk" },
     "scripts": { "start": "nw ." }
 }
 ```
